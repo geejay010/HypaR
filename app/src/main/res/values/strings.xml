@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Hype</string>
+    <string name="image_of_logo_description">image of logo</string>
+    <string name="login_sign_text">Sign in with</string>
+    <string name="e_mail_hint">E-mail</string>
+    <string name="password_hint">Password</string>
+    <string name="log_in_text">Log in</string>
+    <string name="forgot_password_hint">Forgot Password?</string>
+    <string name="create_account_hint">Create Account</string>
+    <string name="facebook_app_id">2013509865580144</string>
+    <string name="fb_login_protocol_scheme">fb2013509865580144</string>
+</resources>

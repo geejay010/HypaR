@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignupScreen"
+    android:background="@color/app_background">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="244dp"
+        android:text="@string/login_sign_text"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="157dp">
+
+        <ImageButton
+            android:id="@+id/btn_facebook_in"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="start"
+            android:layout_marginStart="50dp"
+            android:background="@drawable/facebooklogo"
+            android:onClick="onSignInFacebook"/>
+
+        <ImageButton
+            android:id="@+id/btn_google_in"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginStart="30dp"
+            android:background="@drawable/googlelogo"
+            android:onClick="onSignInGoogle"/>
+
+        <ImageButton
+            android:id="@+id/btn_twitter_in"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="end"
+            android:layout_marginEnd="50dp"
+            android:background="@drawable/twitterlogo" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="238dp"
+        android:layout_height="244dp"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/splashscreenlogo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:text="@string/app_name"
+        android:textSize="40sp"
+        android:textStyle="normal"
+        android:textColor="#F9ED32"/>
+
+    <LinearLayout
+        android:layout_width="353dp"
+        android:layout_height="154dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/signInButton"
+            android:layout_width="160dp"
+            android:layout_height="140dp"
+            android:background="@drawable/rounded_corner"
+            android:text="Sign in"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:onClick="onGetToLogin"/>
+
+
+        <Button
+            android:id="@+id/signUpButton"
+            android:layout_width="160dp"
+            android:layout_height="140dp"
+            android:layout_marginStart="30dp"
+            android:background="@drawable/rounded_corner"
+            android:text="Sign up"
+            android:textAllCaps="false"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="58dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Existing Account"
+            android:textSize="12sp"
+            android:layout_marginStart="65dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create Account"
+            android:textSize="12sp"
+            android:layout_marginStart="100dp"/>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

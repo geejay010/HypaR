@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "504655034220",
+    "firebase_url": "https://hypar-b6069.firebaseio.com",
+    "project_id": "hypar-b6069",
+    "storage_bucket": "hypar-b6069.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:504655034220:android:594ef7a1530e646e",
+        "android_client_info": {
+          "package_name": "com.partypeople.agent47.hypar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "504655034220-v8bt6lgjpegqvqt2q2skhfh23013f8sm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.partypeople.agent47.hypar",
+            "certificate_hash": "b0a0725a354e0ca8c70753e225b78f745f649ad4"
+          }
+        },
+        {
+          "client_id": "504655034220-0pjd20s1e3drg0p4s7d0um1puh89tm7r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkyJoEu4-IdQzNnhTkNYgNjDhHGh5zw8Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "504655034220-0pjd20s1e3drg0p4s7d0um1puh89tm7r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
